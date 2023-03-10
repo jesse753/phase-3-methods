@@ -7,3 +7,6 @@ def greet_programmer
     puts "Hello, #{name}!"
   end
   
+  def greet_with_default(name = "programmer")
+    puts "Hello, #{name}!"
+  end
